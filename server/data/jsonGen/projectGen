@@ -1,0 +1,19 @@
+[
+  {
+    'repeat(0,100)': {
+     projectId: '{{objectId()}}',
+      name: '{{lorem(1,"sentences")}}',
+      description: '{{lorem(1, "paragraphs")}}',
+      skills: 'Javascript',
+      budget: '{{integer(1000, 3000)}}',
+      budgetType: 'PH',
+      sellerId: '',
+      bids: '',
+      allocatedTo: '',
+      allocatedAt: '',
+      bidExpiry: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+      createdDateTime: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("LLLL")}}',
+      status: 'OPEN'
+    }
+  }
+]
