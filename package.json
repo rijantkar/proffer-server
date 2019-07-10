@@ -4,18 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "json:server": "json-server --watch db.json",
-    "dev": "node server.js"
+    "start": "npm-run-all --parallel json:server start:server",
+    "json:server": "json-server --watch src/data/db.json",
+    "start:server": "nodemon src"
   },
   "author": "Rohit, Ijantkar",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.15.3",
-    "express": "^4.14.0",
-    "express-graphql": "^0.6.1",
-    "graphql": "^0.8.2",
+    "axios": "^0.19.0",
+    "graphql": "^14.1.0",
     "json-server": "^0.9.4",
-    "lodash": "^4.17.4"
+    "apollo-server": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5"
   }
 }
