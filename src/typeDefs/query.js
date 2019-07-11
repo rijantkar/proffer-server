@@ -9,8 +9,8 @@ const query = gql`
     searchText(searchTerm: String): [Project]
     getUser(id: ID!): User
     getUsers: [User]
-    getBids: [Bid]
     getBid(id: ID!): Bid
+    getBids: [Bid]
     getProjectBids(projectId: ID!): [Bid]
     getUserBids(userId: ID): [Bid] 
   }

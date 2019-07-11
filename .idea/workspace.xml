@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75a2071-cf88-4c51-bc59-a505c88d0078" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/util/bidGen" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/bidGen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typeDefs/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typeDefs/query.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/bidGen">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/typeDefs/query.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -121,12 +130,12 @@
         <option value="$PROJECT_DIR$/src/resolvers/bidResolver.js" />
         <option value="$PROJECT_DIR$/src/models/Bid.js" />
         <option value="$PROJECT_DIR$/src/resolvers/userResolver.js" />
-        <option value="$PROJECT_DIR$/src/typeDefs/query.js" />
         <option value="$PROJECT_DIR$/src/resolvers/projectResolver.js" />
         <option value="$PROJECT_DIR$/src/models/Project.js" />
         <option value="$PROJECT_DIR$/src/models/User.js" />
         <option value="$PROJECT_DIR$/src/data/db.json" />
         <option value="$PROJECT_DIR$/src/util/bidGen" />
+        <option value="$PROJECT_DIR$/src/typeDefs/query.js" />
       </list>
     </option>
   </component>
@@ -165,7 +174,7 @@
               <item name="proffer-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="proffer-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="typeDefs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34377000" />
+    <option name="totallyTimeSpent" value="34615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -363,13 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/typeDefs/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/typeDefs/types/projectType.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -430,6 +432,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/typeDefs/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
