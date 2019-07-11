@@ -1,134 +1,147 @@
 {
   "projects": [
     {
-      "id": "5d23ab61cb63d83c0ca782ef",
-      "name": "Culpa ut commodo est id minim ullamco ad.",
-      "description": "Sunt elit commodo nostrud consectetur. Proident esse qui velit deserunt duis in nostrud excepteur dolore voluptate. Ipsum elit nulla et ullamco exercitation sit esse. Et tempor Lorem sunt veniam sit.",
-      "skills": ["ReactJS"],
-      "budget": 1365,
-      "budgetType": "PH",
-      "sellerId": "5d23bc11fd12d7ec988f20e7",
-      "bids": "",
-      "bidderId": "5d23bc119b292741223aefdf",
-      "allocatedAt": "",
-      "bidExpiry": "",
-      "createdDateTime": "Sunday, October 29, 2017 6:13 PM",
-      "status": "CLOSED"
-    },
-    {
-      "id": "5d23ab6116e5d38757f6101e",
-      "name": "Tempor sunt et et sint pariatur do minim consequat aliquip ex mollit voluptate.",
-      "description": "Laboris ullamco quis cupidatat laboris. Laborum aute aute duis est dolore do tempor nostrud mollit consectetur. Lorem irure minim laborum amet officia reprehenderit anim est nulla consectetur anim cupidatat irure aliquip. Enim esse laborum quis do qui ea mollit officia. Pariatur adipisicing sint tempor veniam est quis commodo sunt laboris reprehenderit eu ullamco.",
-      "skills": ["ReactJS"],
-      "budget": 2553,
-      "budgetType": "PH",
-      "sellerId": "",
-      "bids": "",
+      "id": "5d2701d191996f2b57cc34f9",
+      "name": "Est exercitation irure tempor culpa minim aliqua minim aliqua aliqua id ex sint deserunt.",
+      "description": "Cupidatat cillum veniam consequat reprehenderit. Cupidatat elit proident ea esse duis. Occaecat velit et Lorem eiusmod quis.\r\n",
+      "skills": "Javascript",
+      "sellerId": "5d2704427c7fd8126253d3c1",
       "bidderId": "",
-      "allocatedAt": "",
-      "bidExpiry": "",
-      "createdDateTime": "Friday, January 24, 2014 5:11 PM",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "15/01/16 02:58",
+      "createdDateTime": "25/05/17 17:24",
       "status": "OPEN"
     },
     {
-      "id": "5d23ab61c5ac0cf3bab216d6",
-      "name": "Esse laboris consequat deserunt magna nisi ex quis aute adipisicing ullamco commodo consectetur eiusmod reprehenderit.",
-      "description": "Lorem aliqua dolore duis sint velit do eiusmod. Eiusmod reprehenderit sit dolore eiusmod ipsum anim qui. Fugiat excepteur ea ipsum nostrud aliquip ex consectetur nisi. Culpa sint velit fugiat tempor officia. Velit mollit est nulla mollit ex deserunt enim ullamco excepteur. Adipisicing commodo qui laboris velit labore velit. Eiusmod elit veniam id sit mollit veniam et id id Lorem aliqua do aute.",
-      "skills": ["ReactJS"],
-      "budget": 2488,
-      "budgetType": "PH",
-      "sellerId": "",
-      "bids": "",
+      "id": "5d2701d1fd89a993767fd6d0",
+      "name": "Ut elit qui velit laborum ex ullamco veniam non nulla labore veniam id ipsum ut.",
+      "description": "Nostrud velit laborum excepteur Lorem excepteur do qui ea nisi. Nulla excepteur voluptate cillum pariatur enim esse velit tempor irure exercitation. Magna consectetur consequat ipsum deserunt dolore amet irure ipsum consequat laborum. Nostrud dolore pariatur fugiat nisi labore. Consectetur officia pariatur consequat aute cillum eu voluptate voluptate veniam pariatur.\r\n",
+      "skills": "Javascript",
+      "sellerId": "5d2704427c7fd8126253d3c1",
       "bidderId": "",
-      "allocatedAt": "",
-      "bidExpiry": "",
-      "createdDateTime": "Wednesday, August 31, 2016 1:13 PM",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "14/05/18 20:41",
+      "createdDateTime": "15/06/18 00:31",
       "status": "OPEN"
     },
     {
-      "id": "5d23ab61c61414fc0490484a",
-      "name": "Nulla deserunt proident ut fugiat adipisicing pariatur non adipisicing.",
-      "description": "Labore labore elit laborum amet adipisicing ipsum commodo. Reprehenderit nostrud nostrud magna tempor consectetur excepteur fugiat. Id ea laboris pariatur consequat nisi nulla aute tempor ipsum. Sunt eiusmod magna minim in quis eiusmod sint eiusmod ullamco dolor culpa.",
-      "skills": ["ReactJS"],
-      "budget": 1773,
-      "budgetType": "PH",
-      "sellerId": "",
-      "bids": "",
+      "id": "5d2701d146a67429b1bbf341",
+      "name": "Ipsum veniam ex non proident fugiat incididunt sunt cupidatat ullamco non tempor laboris ex sunt.",
+      "description": "Officia veniam voluptate aute est ea ex nulla tempor Lorem voluptate cupidatat. Duis duis deserunt cillum sit. Do dolore adipisicing dolore est Lorem voluptate eu exercitation commodo Lorem qui officia pariatur commodo. Sunt quis exercitation fugiat cupidatat deserunt est. Dolore in ex cillum excepteur tempor amet et sint anim tempor labore. Est ut consectetur sunt non culpa excepteur.\r\n",
+      "skills": "Javascript",
+      "sellerId": "5d2704427c7fd8126253d3c1",
       "bidderId": "",
-      "allocatedAt": "",
-      "bidExpiry": "Thursday, March 30, 2017 10:34 PM",
-      "createdDateTime": "Saturday, August 26, 2017 12:47 AM",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "04/12/17 18:20",
+      "createdDateTime": "13/07/14 22:00",
       "status": "OPEN"
     },
     {
-      "id": "5d23ab613a7e97750b311b6a",
-      "name": "Excepteur ullamco ea consequat ex exercitation velit dolor ullamco ullamco sit culpa.",
-      "description": "Cillum voluptate aliquip sunt amet cillum deserunt in fugiat proident eu enim aliquip veniam magna. Consequat ullamco tempor commodo fugiat velit veniam incididunt irure culpa adipisicing consequat. Officia non ad exercitation occaecat et ad cupidatat. Ea non veniam ullamco deserunt ut amet ea non. Culpa cillum ut cupidatat anim consectetur cillum deserunt consequat.",
-      "skills": ["ReactJS"],
-      "budget": 1669,
-      "budgetType": "PH",
-      "sellerId": "",
-      "bids": "",
+      "id": "5d270205486475f02a965f55",
+      "name": "Lorem duis deserunt excepteur sit ea nostrud.",
+      "description": "Exercitation amet quis minim duis commodo voluptate elit commodo ullamco consequat. Reprehenderit labore sunt sunt nostrud anim est anim labore cillum ut incididunt labore sint elit. Consectetur sunt aliquip incididunt fugiat sint esse amet incididunt amet in Lorem magna adipisicing. Laboris incididunt laborum consectetur occaecat laboris nostrud ut nostrud. Sunt anim eu laborum ipsum adipisicing ut fugiat quis enim qui qui. Et excepteur anim enim eu est laborum irure excepteur ipsum laboris ut officia eiusmod aliqua. Esse excepteur consequat in consequat proident occaecat labore minim.\r\n",
+      "skills": "ReactJS",
+      "sellerId": "5d27044293bb1dc47fa71362",
       "bidderId": "",
-      "allocatedAt": "",
-      "bidExpiry": "Friday, September 22, 2017 1:12 PM",
-      "createdDateTime": "Monday, December 17, 2018 10:31 AM",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "28/10/15 19:31",
+      "createdDateTime": "28/03/14 16:16",
+      "status": "OPEN"
+    },
+    {
+      "id": "5d2702058cdc5d2fc63be6aa",
+      "name": "Elit labore sit deserunt sit minim Lorem officia fugiat.",
+      "description": "Aliquip enim eu magna laborum do aute cillum adipisicing voluptate aliquip dolor voluptate non officia. Aliqua excepteur sit velit ex adipisicing adipisicing sit commodo laborum dolor proident proident. Eiusmod enim sunt enim dolor quis ea voluptate cillum non excepteur adipisicing amet et anim.\r\n",
+      "skills": "ReactJS",
+      "sellerId": "5d27044293bb1dc47fa71362",
+      "bidderId": "",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "31/05/15 22:43",
+      "createdDateTime": "13/02/19 20:28",
+      "status": "OPEN"
+    },
+    {
+      "id": "5d27020590ac78d7664b1f96",
+      "name": "Sit occaecat qui minim nisi aliquip.",
+      "description": "Aliqua do Lorem ullamco elit sunt non mollit exercitation culpa. Anim do nisi voluptate ad do qui incididunt consectetur laborum nulla qui laboris non. Nostrud id enim reprehenderit tempor consectetur et incididunt fugiat magna. Duis irure cillum eiusmod incididunt eu fugiat incididunt officia.\r\n",
+      "skills": "ReactJS",
+      "sellerId": "5d27044293bb1dc47fa71362",
+      "bidderId": "",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "10/08/18 23:10",
+      "createdDateTime": "29/11/18 01:22",
+      "status": "OPEN"
+    },
+    {
+      "id": "5d2702050a7e8a84b4cafd4c",
+      "name": "Dolor cillum cupidatat proident anim enim nisi dolore magna ipsum ea labore.",
+      "description": "Est anim minim veniam consequat occaecat fugiat adipisicing esse nostrud fugiat. Et elit duis aute consectetur consectetur dolore excepteur pariatur proident voluptate et pariatur eu eiusmod. Culpa reprehenderit adipisicing pariatur ea elit deserunt occaecat consectetur. Cillum ullamco aliqua ad velit et incididunt excepteur voluptate nostrud. Cupidatat ut ex reprehenderit laboris cillum quis anim consequat. Enim sunt labore occaecat nostrud exercitation do eu deserunt laboris sit id aliquip sunt reprehenderit. Proident esse labore irure Lorem ad aliquip pariatur aute proident sunt deserunt mollit.\r\n",
+      "skills": "ReactJS",
+      "sellerId": "5d27044293bb1dc47fa71362",
+      "bidderId": "",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "10/12/16 14:05",
+      "createdDateTime": "03/08/18 04:17",
+      "status": "OPEN"
+    },
+    {
+      "id": "5d2702228fc06217385fd7d9",
+      "name": "Officia magna fugiat nisi id Lorem id fugiat.",
+      "description": "Cillum voluptate ipsum pariatur culpa et anim labore Lorem esse commodo. Amet cillum commodo consectetur cupidatat aliquip proident excepteur. Aliqua mollit sit deserunt esse incididunt qui sunt cupidatat officia officia sunt ut. Sint sint ullamco ex voluptate ad anim. Veniam ipsum officia Lorem sint ullamco et officia mollit tempor sunt laboris nisi.\r\n",
+      "skills": "AngularJS",
+      "sellerId": "5d27044293bb1dc47fa71362",
+      "bidderId": "",
+      "lowestBid": 0,
+      "bidExpiryDateTime": "03/07/16 08:48",
+      "createdDateTime": "13/09/14 20:04",
       "status": "OPEN"
     }
   ],
   "users": [
     {
-      "id": "5d23bc11fd12d7ec988f20e7",
-      "name": "Rena, Acosta",
-      "aboutMe": "Pariatur elit reprehenderit excepteur veniam non in ad nostrud ad pariatur veniam. Incididunt quis qui do exercitation tempor magna irure laborum ipsum Lorem in cupidatat. Dolor dolor pariatur commodo sint. Esse occaecat velit mollit reprehenderit labore mollit dolor et laborum amet anim consectetur nulla.",
-      "reviews": [
-        {
-          "name": "Blackburn Aguilar",
-          "says": "Elit ad in exercitation sint quis ea."
-        },
-        {
-          "name": "Aileen Duke",
-          "says": "Veniam minim incididunt eiusmod eu aute excepteur incididunt commodo cillum consectetur."
-        }
-      ],
-      "ratings": "4.8",
-      "email": "rena.acosta@gmail.com",
-      "contact": "+61 (988) 434-3942",
-      "bids": "",
-      "bankName": "NAB",
-      "bankBSB": 556055,
-      "bankAccountNumber": 820278,
-      "projectsOwned": "",
-      "projectsContributed": "",
-      "createdDateTime": "Friday, November 30, 2018 2:20 AM"
+      "id": "5d2704427c7fd8126253d3c1",
+      "name": "Haley, Morin",
+      "description": "Pariatur minim et duis aliqua labore ipsum id. Ex laboris veniam deserunt sint laboris ullamco qui. Ad deserunt aliquip minim consequat ullamco adipisicing irure nisi id fugiat ipsum est ad. Consequat ex ex Lorem aliqua minim culpa velit exercitation esse exercitation aliquip. Laboris sit commodo dolore aute sint nisi duis ut. Minim do labore ea adipisicing magna mollit minim duis.\r\n",
+      "email": "Haley.Morin@gmail.com",
+      "contact": 61420416469,
+      "bankName": "",
+      "bankAccount": 910615,
+      "bankBSB": 225397,
+      "createdDateTime": "29/11/17 18:39"
     },
     {
-      "id": "5d23bc119b292741223aefdf",
-      "name": "Gilliam, Hendrix",
-      "aboutMe": "Ad cupidatat do commodo voluptate qui esse fugiat labore. Cupidatat enim laboris esse laborum ullamco. Eiusmod proident sit dolor dolore occaecat ipsum ullamco labore amet ullamco Lorem. Dolor tempor pariatur eiusmod ad mollit nostrud irure sint eu non cillum. Nostrud qui pariatur id officia nisi officia commodo. Exercitation id ullamco laborum tempor fugiat.",
-      "reviews": [
-        {
-          "name": "Newman Robbins",
-          "says": "Veniam ex laborum dolor irure culpa adipisicing ipsum excepteur non veniam."
-        },
-        {
-          "name": "Norris Weber",
-          "says": "Sunt officia Lorem tempor dolor."
-        }
-      ],
-      "ratings": "4.2",
-      "email": "gilliam.hendrix@gmail.com",
-      "contact": "+61 (866) 401-3500",
-      "bids": "",
-      "bankName": "NAB",
-      "bankBSB": 643192,
-      "bankAccountNumber": 925406,
-      "projectsOwned": "",
-      "projectsContributed": "",
-      "createdDateTime": "Friday, May 31, 2019 7:51 PM"
+      "id": "5d27044293bb1dc47fa71362",
+      "name": "Maldonado, English",
+      "description": "Excepteur incididunt id Lorem dolor culpa. Ea exercitation magna nulla ipsum nostrud ut incididunt duis elit ex. Fugiat voluptate duis magna minim nisi excepteur. Mollit ipsum sint est sint quis et aliqua in elit sit. Non fugiat in sint eiusmod nostrud aliquip eu veniam nisi laborum id cupidatat. Elit officia consequat exercitation ullamco non Lorem adipisicing.\r\n",
+      "email": "maldonado.english@gmail.com",
+      "contact": 61488103349,
+      "bankName": "",
+      "bankAccount": 944540,
+      "bankBSB": 247984,
+      "createdDateTime": "09/01/18 14:48"
     }
   ],
-  "bids": [{
-
-  }]
+  "bids": [
+    {
+      "id": "5d2704dc9d01313205e25278",
+      "bidQuote": "5500",
+      "bidderId": "5d2704427c7fd8126253d3c1",
+      "projectId": "5d2702050a7e8a84b4cafd4c",
+      "createdDateTime": "01/01/19 15:45"
+    },
+    {
+      "id": "5d2704dc0aaaded3b0efd053",
+      "bidQuote": "4000",
+      "bidderId": "5d2704427c7fd8126253d3c1",
+      "projectId": "5d2702050a7e8a84b4cafd4c",
+      "createdDateTime": "20/08/16 21:02"
+    },
+    {
+      "id": "5d2704dc477317f8561312de",
+      "bidQuote": "6500",
+      "bidderId": "5d2704427c7fd8126253d3c1",
+      "projectId": "5d2702050a7e8a84b4cafd4c",
+      "createdDateTime": "20/01/14 07:45"
+    }
+  ]
 }

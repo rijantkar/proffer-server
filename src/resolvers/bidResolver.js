@@ -2,11 +2,17 @@ const { bid } = require('../models');
 
 const bidResolvers = {
     Query: {
-        bids() {
-            return bid.list()
+        getBid(parent, args){
+            return bid.getBid(args.id);
         },
-        findBid(parent, args){
-            return bid.find(args.id)
+        getBids() {
+            return bid.getBids();
+        },
+        getProjectBids(parent, args){
+            return bid.getProjectBids(args.projectId);
+        },
+        getUserBids(parent, args){
+            return bid.getUserBids(args.userId);
         }
     }
 }

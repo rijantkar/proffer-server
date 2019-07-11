@@ -1,0 +1,15 @@
+[
+    '{{repeat(0,2)}}',
+  {
+     id: '{{objectId()}}',
+      name: '{{lorem(1,"sentences")}}',
+      description: '{{lorem(1, "paragraphs")}}',
+      skills: 'AngularJS',
+      sellerId: '',
+      bidderId: '',
+      lowestBid: '',
+      bidExpiryDateTime: '{{date(new Date(2014, 0, 1), new Date(), "dd/MM/YY HH:mm")}}',
+      createdDateTime: '{{date(new Date(2014, 0, 1), new Date(), "dd/MM/YY HH:mm")}}',
+      status: 'OPEN'
+    }
+]

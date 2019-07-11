@@ -7,12 +7,20 @@ class Bid {
         })
     }
 
-    list() {
+    getBid(id) {
+        return this.api.get(`/bids/${id}`).then(res => res.data)
+    }
+
+    getBids() {
         return this.api.get('/bids').then(res => res.data)
     }
 
-    find(id) {
-        return this.api.get(`/bids/${id}`).then(res => res.data)
+    getProjectBids(projectId){
+        return this.api.get(`/bids?projectId${projectId}`).then(res => res.data)
+    }
+
+    getUserBids(bidderId){
+        return this.api.get(`/bids?bidderId${bidderId}`).then(res => res.data)
     }
 /*
     create(data) {

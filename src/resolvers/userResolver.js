@@ -2,11 +2,11 @@ const { user } = require('../models');
 
 const userResolvers = {
     Query: {
-        users() {
-            return user.list()
+        getUser(parent, args){
+            return user.getUser(args.id)
         },
-        findUser(parent, args){
-            return user.find(args.id)
+        getUsers() {
+            return user.getUsers()
         }
     }
 }

@@ -1,0 +1,14 @@
+[
+    '{{repeat(0,2)}}',
+  {
+     id: '{{objectId()}}',
+    name: '{{firstName()}}, {{surname()}}',
+      description: '{{lorem(1, "paragraphs")}}',
+      email: '{{firstName()}}.{{surname()}}@gmail.com',
+      contact: '{{integer(61400000000, 61499999999)}}',
+      bankName: '',
+      bankAccount: '{{integer(777777, 999999)}}',
+      bankBSB: '{{integer(222777, 555555)}}',
+      createdDateTime: '{{date(new Date(2014, 0, 1), new Date(), "dd/MM/YY HH:mm")}}'
+    }
+]

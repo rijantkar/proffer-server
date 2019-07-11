@@ -7,13 +7,12 @@ class User {
         })
     }
 
-    list() {
-        console.log('users')
-        return this.api.get('/users').then(res => res.data)
+    getUser(id) {
+        return this.api.get(`/users/${id}`).then(res => res.data)
     }
 
-    find(id) {
-        return this.api.get(`/users/${id}`).then(res => res.data)
+    getUsers() {
+        return this.api.get('/users').then(res => res.data)
     }
 
     /*

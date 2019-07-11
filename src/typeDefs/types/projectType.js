@@ -5,15 +5,13 @@ const projectType = gql`
         id: ID!
         name: String!
         description: String!
-        budget: Int
-        budgetType: String
-        skills: [String]
+        skills: String
+        sellerId: ID
         bidderId: ID
-        allocatedPrice: Float
-        bidExpiry: String
+        lowestBid: Float
+        bidExpiryDateTime: String
         createdDateTime: String
         status: String
-        sellerId: ID
     }
 `;
 

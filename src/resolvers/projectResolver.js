@@ -2,17 +2,20 @@ const { project } = require('../models');
 
 const projectResolvers = {
     Query: {
-        projects() {
-            return project.list()
+        getProject(parent, args){
+            return project.getProject(args.id)
         },
-        findProject(parent, args){
-            return project.find(args.id)
+        getProjects() {
+            return project.getProjects()
         },
-        findUserProjects(parent, args){
-            return project.findUserProjects(args.sellerId)
+        getUserProjects(parent, args){
+            return project.getUserProjects(args.sellerId)
         },
-        findAllocatedProjects(parent, args){
-            return project.findAllocatedProjects(args.bidderId);
+        getBidderProjects(parent, args){
+            return project.getBidderProjects(args.bidderId);
+        },
+        searchText(parent, args){
+            return project.searchText(args.searchTerm);
         }
     },
     Mutation: {

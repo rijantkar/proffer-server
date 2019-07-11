@@ -7,24 +7,27 @@ class Project {
         })
     }
 
-    list() {
+    getProjects() {
         return this.api.get('/projects').then(res => res.data)
     }
 
-    find(id) {
+    getProject(id) {
         return this.api.get(`/projects/${id}`).then(res => res.data)
     }
 
-    findUserProjects(sellerId){
-        return this.api.get(`/projects/${sellerId}`).then(res => res.data)
+    getUserProjects(sellerId){
+        return this.api.get(`/projects?sellerId=${sellerId}`).then(res => res.data)
     }
 
-    findBidderProjects(bidderId){
-        return this.api.get(`/projects/${bidderId}`).then(res => res.data)
+    getBidderProjects(bidderId){
+        return this.api.get(`/projects?bidderId=${bidderId}`).then(res => res.data)
+    }
+
+    searchText(searchTerm){
+        return this.api.get(`/projects?q=${searchTerm}`).then(res => res.data)
     }
 
     postProject(data) {
-        //data.friends = data.friends ? data.friends.map(id => ({ id })) : []
         return this.api.post('/projects', data).then(res => res.data)
     }
 
