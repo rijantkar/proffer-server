@@ -4,6 +4,9 @@ const bidResolvers = {
     Query: {
         bids() {
             return bid.list()
+        },
+        findBid(parent, args){
+            return bid.find(args.id)
         }
     }
 }

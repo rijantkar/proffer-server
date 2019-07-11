@@ -11,10 +11,10 @@ class Bid {
         return this.api.get('/bids').then(res => res.data)
     }
 
-    /*find(id) {
+    find(id) {
         return this.api.get(`/bids/${id}`).then(res => res.data)
     }
-
+/*
     create(data) {
         data.friends = data.friends ? data.friends.map(id => ({ id })) : []
         return this.api.post('/bids', data).then(res => res.data)

@@ -11,14 +11,24 @@ class Project {
         return this.api.get('/projects').then(res => res.data)
     }
 
-    /*find(id) {
+    find(id) {
         return this.api.get(`/projects/${id}`).then(res => res.data)
     }
 
-    create(data) {
-        data.friends = data.friends ? data.friends.map(id => ({ id })) : []
+    findUserProjects(sellerId){
+        return this.api.get(`/projects/${sellerId}`).then(res => res.data)
+    }
+
+    findBidderProjects(bidderId){
+        return this.api.get(`/projects/${bidderId}`).then(res => res.data)
+    }
+
+    postProject(data) {
+        //data.friends = data.friends ? data.friends.map(id => ({ id })) : []
         return this.api.post('/projects', data).then(res => res.data)
     }
+
+    /*
 
     update(id, data) {
         return this.api.patch(`/projects/${id}`, data).then(res => res.data)

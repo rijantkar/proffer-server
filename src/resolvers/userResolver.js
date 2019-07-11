@@ -4,6 +4,9 @@ const userResolvers = {
     Query: {
         users() {
             return user.list()
+        },
+        findUser(parent, args){
+            return user.find(args.id)
         }
     }
 }
