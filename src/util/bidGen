@@ -2,7 +2,7 @@
     '{{repeat(0,5)}}',
   {
      id: '{{objectId()}}',
-    bidQoute: '',
+    bidQuote: '',
       bidderId: '',
       projectId: '',
       createdDateTime: '{{date(new Date(2014, 0, 1), new Date(), "dd/MM/YY HH:mm")}}'
