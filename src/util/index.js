@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 const deepClone = (object) => {
     let newObject = {};
     for(var key in object){
@@ -8,4 +10,13 @@ const deepClone = (object) => {
         }
     }
     return newObject;
+}
+
+const getCurrentDateTime = () => {
+    const currentDateTime = moment(new Date()).format('DD/MM/YY HH:mm')
+    return currentDateTime;
+}
+
+module.exports = {
+    getCurrentDateTime
 }

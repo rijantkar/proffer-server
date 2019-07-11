@@ -17,6 +17,9 @@ const query = gql`
   
   type Mutation {
     postProject(name: String!, description: String!): Project
+    postBid(bidQuote: Float!, bidderId: ID!, projectId: ID!): Bid
+    updateBid(id: ID!, bidQuote: Float, bidderId: ID, projectId: ID): Bid
+    deleteBid(id: ID!): Bid
   }
 `;
 

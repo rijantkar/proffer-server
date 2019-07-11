@@ -20,8 +20,7 @@ const projectResolvers = {
     },
     Mutation: {
         postProject(parent, args){
-            console.log('createProject '+deepClone(args));
-            return project.postProject(deepClone(args))
+            return project.postProject(args)
         }
     }
 }

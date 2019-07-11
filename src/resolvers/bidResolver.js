@@ -14,6 +14,20 @@ const bidResolvers = {
         getUserBids(parent, args){
             return bid.getUserBids(args.userId);
         }
+    },
+    Mutation: {
+        postBid(parents, args){
+            return bid.postBid(args);
+        },
+        updateBid(parent, args){
+            const id = args.id;
+            delete args[id];
+            return bid.updateBid(id, args);
+        },
+        deleteBid(parent, args){
+            console.log('deleting ...'+args.id);
+            return bid.deleteBid(args.id);
+        }
     }
 }
 
