@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { setProjectStatus, setDateTime, setGUID } = require('./../util');
 
 class Project {
     constructor() {
@@ -28,18 +29,21 @@ class Project {
     }
 
     postProject(data) {
+        setProjectStatus(data,'OPEN');
+        setGUID(data);
+        setDateTime(data);
         return this.api.post('/projects', data).then(res => res.data)
     }
 
-    /*
-
-    update(id, data) {
+    updateProject(id, data) {
+        setGUID(data);
+        setDateTime(data);
         return this.api.patch(`/projects/${id}`, data).then(res => res.data)
     }
 
-    delete(id) {
-        return this.api.delete(`/projects/${id}`).then(() => ({ id }))
-    }*/
+    deleteProject(id) {
+        return this.api.delete(`/projects/${id}`).then(res => res.statusText)
+    }
 }
 
 const project = new Project();

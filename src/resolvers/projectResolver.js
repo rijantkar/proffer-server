@@ -21,6 +21,14 @@ const projectResolvers = {
     Mutation: {
         postProject(parent, args){
             return project.postProject(args)
+        },
+        updateProject(parent, args){
+            const id = args.id;
+            delete args[id];
+            return project.updateProject(id, args);
+        },
+        deleteProject(parent, args){
+            return project.deleteProject(args.id);
         }
     }
 }

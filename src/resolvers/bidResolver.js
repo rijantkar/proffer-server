@@ -23,10 +23,6 @@ const bidResolvers = {
             const id = args.id;
             delete args[id];
             return bid.updateBid(id, args);
-        },
-        deleteBid(parent, args){
-            console.log('deleting ...'+args.id);
-            return bid.deleteBid(args.id);
         }
     }
 }

@@ -73,18 +73,6 @@
       "status": "OPEN"
     },
     {
-      "id": "5d2702050a7e8a84b4cafd4c",
-      "name": "Dolor cillum cupidatat proident anim enim nisi dolore magna ipsum ea labore.",
-      "description": "Est anim minim veniam consequat occaecat fugiat adipisicing esse nostrud fugiat. Et elit duis aute consectetur consectetur dolore excepteur pariatur proident voluptate et pariatur eu eiusmod. Culpa reprehenderit adipisicing pariatur ea elit deserunt occaecat consectetur. Cillum ullamco aliqua ad velit et incididunt excepteur voluptate nostrud. Cupidatat ut ex reprehenderit laboris cillum quis anim consequat. Enim sunt labore occaecat nostrud exercitation do eu deserunt laboris sit id aliquip sunt reprehenderit. Proident esse labore irure Lorem ad aliquip pariatur aute proident sunt deserunt mollit.\r\n",
-      "skills": "ReactJS",
-      "sellerId": "5d27044293bb1dc47fa71362",
-      "bidderId": "",
-      "lowestBid": 0,
-      "bidExpiryDateTime": "10/12/16 14:05",
-      "createdDateTime": "03/08/18 04:17",
-      "status": "OPEN"
-    },
-    {
       "id": "5d2702228fc06217385fd7d9",
       "name": "Officia magna fugiat nisi id Lorem id fugiat.",
       "description": "Cillum voluptate ipsum pariatur culpa et anim labore Lorem esse commodo. Amet cillum commodo consectetur cupidatat aliquip proident excepteur. Aliqua mollit sit deserunt esse incididunt qui sunt cupidatat officia officia sunt ut. Sint sint ullamco ex voluptate ad anim. Veniam ipsum officia Lorem sint ullamco et officia mollit tempor sunt laboris nisi.\r\n",
@@ -95,6 +83,34 @@
       "bidExpiryDateTime": "03/07/16 08:48",
       "createdDateTime": "13/09/14 20:04",
       "status": "OPEN"
+    },
+    {
+      "name": "Rohit",
+      "description": "TEST",
+      "skills": "Python",
+      "sellerId": "jhkgsdfjhgfsdjgh",
+      "bidExpiryDateTime": "12/07/19 21:00",
+      "status": "COMPLETED",
+      "id": "b16b50765843be8884b8638c",
+      "createdDateTime": "12/07/19 14:27"
+    },
+    {
+      "name": "Java Project",
+      "description": "jhdgsfhgdsf",
+      "sellerId": "78923648gefjhgd",
+      "bidExpiryDateTime": "13/07/19 12:00",
+      "status": "COMPLETED",
+      "id": "647d94bf3abb86ab23083836",
+      "createdDateTime": "12/07/19 18:15"
+    },
+    {
+      "name": "ReactJS Project",
+      "description": "jhdgsfhgdsf",
+      "sellerId": "78923648gefjhgd",
+      "bidExpiryDateTime": "13/07/19 12:12",
+      "status": "COMPLETED",
+      "id": "71d080b4dab42689a8f97d2d",
+      "createdDateTime": "12/07/19 18:16"
     }
   ],
   "users": [
@@ -119,29 +135,64 @@
       "bankAccount": 944540,
       "bankBSB": 247984,
       "createdDateTime": "09/01/18 14:48"
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit.ijantkar@yahoo.com",
+      "contact": "+61468876448",
+      "friends": [],
+      "id": "eyDKn-OHG"
+    },
+    {
+      "name": "Rohit, Ijantkar",
+      "email": "rohit.ijantkar@yahoo.com",
+      "contact": "+61468876448",
+      "id": "bdc75cfd89421ea8591a4252",
+      "createdDateTime": "12/07/19 15:00"
+    },
+    {
+      "name": "Rock",
+      "email": "rock@google.com",
+      "contact": "+61-788868374",
+      "id": "bef79303289bf78904c89973",
+      "createdDateTime": "12/07/19 18:11"
+    },
+    {
+      "name": "Pat",
+      "email": "pat@google.com",
+      "contact": "+61-87632478",
+      "id": "f14ebed79ab2c78af1ca4bc5",
+      "createdDateTime": "12/07/19 18:11"
     }
   ],
   "bids": [
     {
-      "id": "5d2704dc9d01313205e25278",
-      "bidQuote": "5500",
-      "bidderId": "5d2704427c7fd8126253d3c1",
-      "projectId": "5d2702050a7e8a84b4cafd4c",
-      "createdDateTime": "01/01/19 15:45"
+      "bidQuote": 7653,
+      "bidderId": "jhgdsjhg234",
+      "projectId": "jhdg289374",
+      "id": "6d8389f0b8badcbbf7ba09ba",
+      "createdDateTime": "12/07/19 18:24"
     },
     {
-      "id": "5d2704dc0aaaded3b0efd053",
-      "bidQuote": "4000",
-      "bidderId": "5d2704427c7fd8126253d3c1",
-      "projectId": "5d2702050a7e8a84b4cafd4c",
-      "createdDateTime": "20/08/16 21:02"
+      "bidQuote": 6500,
+      "bidderId": "kjshgd983475",
+      "projectId": "jhdg289374",
+      "id": "5f4b99a48a9051b9378ada0f",
+      "createdDateTime": "12/07/19 18:24"
     },
     {
-      "id": "5d2704dc477317f8561312de",
-      "bidQuote": "6500",
-      "bidderId": "5d2704427c7fd8126253d3c1",
-      "projectId": "5d2702050a7e8a84b4cafd4c",
-      "createdDateTime": "20/01/14 07:45"
+      "bidQuote": 4000,
+      "bidderId": "kjshgd983475",
+      "projectId": "kjhsdfj",
+      "id": "083786351b89a99af8aaa452",
+      "createdDateTime": "12/07/19 18:24"
+    },
+    {
+      "bidQuote": 500,
+      "bidderId": "kjshgd983475",
+      "projectId": "kjhsdfj",
+      "id": "29eebbded89e788843dae879",
+      "createdDateTime": "12/07/19 18:25:22"
     }
   ]
 }

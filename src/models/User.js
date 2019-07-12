@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { setGUID, setDateTime } = require('./../util');
 
 class User {
     constructor() {
@@ -15,19 +16,20 @@ class User {
         return this.api.get('/users').then(res => res.data)
     }
 
-    /*
-    create(data) {
-        data.friends = data.friends ? data.friends.map(id => ({ id })) : []
+    postUser(data) {
+        setGUID(data);
+        setDateTime(data);
         return this.api.post('/users', data).then(res => res.data)
     }
 
-    update(id, data) {
+    updateUser(id, data) {
+        setDateTime(data);
         return this.api.patch(`/users/${id}`, data).then(res => res.data)
     }
 
-    delete(id) {
-        return this.api.delete(`/users/${id}`).then(() => ({ id }))
-    }*/
+    deleteUser(id) {
+        return this.api.delete(`/users/${id}`).then(res => res.statusText)
+    }
 }
 
 const user = new User();

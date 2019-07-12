@@ -16,10 +16,14 @@ const query = gql`
   }
   
   type Mutation {
-    postProject(name: String!, description: String!): Project
+    postProject(name: String!, description: String!, skills: String, sellerId: ID!, bidExpiryDateTime: String!): Project
+    updateProject(id: ID!, name: String, description: String, skills: String, bidExpiryDateTime: String): Project
+    deleteProject(id: ID!): Project
+    postUser(name: String!, description: String, email: String!, contact: String!, bankName: String, bankAccount: Int, bankBSB: Int): User
+    updateUser(id: ID!, name: String, description: String, email: String, contact: String, bankName: String, bankAccount: Int, bankBSB: Int): User
+    deleteUser(id: ID!): User
     postBid(bidQuote: Float!, bidderId: ID!, projectId: ID!): Bid
     updateBid(id: ID!, bidQuote: Float, bidderId: ID, projectId: ID): Bid
-    deleteBid(id: ID!): Bid
   }
 `;
 

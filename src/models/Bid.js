@@ -1,6 +1,5 @@
 const axios = require('axios');
-const moment = require('moment');
-const { getCurrentDateTime } = require('./../util')
+const { setDateTime, setGUID } = require('./../util')
 
 class Bid {
     constructor() {
@@ -26,17 +25,14 @@ class Bid {
     }
 
     postBid(data) {
-        data['createdDateTime'] = getCurrentDateTime();
-        return this.api.post('/bids', data).then(res => res.data)
+        setGUID(data);
+        setDateTime(data);
+        return this.api.post('/bids', data).then(res => res.data);
     }
 
     updateBid(id, data) {
-        data['createdDateTime'] = getCurrentDateTime();
+        setDateTime(data)
         return this.api.patch(`/bids/${id}`, data).then(res => res.data)
-    }
-
-    deleteBid(id) {
-        return this.api.delete(`/bids/${id}`).then( res => console.log(res.data))
     }
 }
 
